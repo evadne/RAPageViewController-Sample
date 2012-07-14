@@ -1,0 +1,3 @@
+[submodule "IRPageViewController"]
+	path = IRPageViewController
+	url = git://github.com/iridia/IRPageViewController.git
