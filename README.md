@@ -1,4 +1,3 @@
-IRPageViewController-Sample
-===========================
+# IRPageViewController-Sample
 
-WIP: Sample app for IRPageViewController
+Sample app for [IRPageViewController](https://github.com/iridia/IRPageViewController) with some custom sauce.
