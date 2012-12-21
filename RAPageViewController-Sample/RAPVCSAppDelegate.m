@@ -1,14 +1,14 @@
 //
-//  IRPVCSAppDelegate.m
-//  IRPageViewController-Sample
+//  RAPVCSAppDelegate.m
+//  RAPageViewController-Sample
 //
 //  Created by Evadne Wu on 7/15/12.
-//  Copyright (c) 2012 Iridia Productions. All rights reserved.
+//  Copyright (c) 2012 Radius. All rights reserved.
 //
 
-#import "IRPVCSAppDelegate.h"
+#import "RAPVCSAppDelegate.h"
 
-@implementation IRPVCSAppDelegate
+@implementation RAPVCSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

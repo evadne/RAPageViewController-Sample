@@ -12,49 +12,49 @@
 		FF7C610115B1E2F800D3F3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C610015B1E2F800D3F3AF /* CoreGraphics.framework */; };
 		FF7C610715B1E2F800D3F3AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7C610515B1E2F800D3F3AF /* InfoPlist.strings */; };
 		FF7C610915B1E2F800D3F3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C610815B1E2F800D3F3AF /* main.m */; };
-		FF7C610D15B1E2F800D3F3AF /* IRPVCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C610C15B1E2F800D3F3AF /* IRPVCSAppDelegate.m */; };
+		FF7C610D15B1E2F800D3F3AF /* RAPVCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C610C15B1E2F800D3F3AF /* RAPVCSAppDelegate.m */; };
 		FF7C611015B1E2F800D3F3AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C610E15B1E2F800D3F3AF /* MainStoryboard.storyboard */; };
-		FF7C611315B1E2F800D3F3AF /* IRPVCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C611215B1E2F800D3F3AF /* IRPVCSViewController.m */; };
-		FF7C612915B1E32500D3F3AF /* libIRPageViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C612615B1E31600D3F3AF /* libIRPageViewController.a */; };
-		FF7C613C15B2066000D3F3AF /* IRPVCSPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C613A15B2066000D3F3AF /* IRPVCSPageViewController.m */; };
-		FF7C613D15B2066000D3F3AF /* IRPVCSPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7C613B15B2066000D3F3AF /* IRPVCSPageViewController.xib */; };
+		FF7C611315B1E2F800D3F3AF /* RAPVCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C611215B1E2F800D3F3AF /* RAPVCSViewController.m */; };
+		FF7C612915B1E32500D3F3AF /* libRAPageViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C612615B1E31600D3F3AF /* libRAPageViewController.a */; };
+		FF7C613C15B2066000D3F3AF /* RAPVCSPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C613A15B2066000D3F3AF /* RAPVCSPageViewController.m */; };
+		FF7C613D15B2066000D3F3AF /* RAPVCSPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7C613B15B2066000D3F3AF /* RAPVCSPageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FF7C612515B1E31600D3F3AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF7C611E15B1E31600D3F3AF /* IRPageViewController.xcodeproj */;
+			containerPortal = FF7C611E15B1E31600D3F3AF /* RAPageViewController.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FF7C60D815B1E28F00D3F3AF;
-			remoteInfo = IRPageViewController;
+			remoteInfo = RAPageViewController;
 		};
 		FF7C612715B1E32000D3F3AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF7C611E15B1E31600D3F3AF /* IRPageViewController.xcodeproj */;
+			containerPortal = FF7C611E15B1E31600D3F3AF /* RAPageViewController.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = FF7C60D715B1E28F00D3F3AF;
-			remoteInfo = IRPageViewController;
+			remoteInfo = RAPageViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF7C60F815B1E2F800D3F3AF /* IRPageViewController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRPageViewController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C60F815B1E2F800D3F3AF /* RAPageViewController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAPageViewController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C60FC15B1E2F800D3F3AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF7C60FE15B1E2F800D3F3AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF7C610015B1E2F800D3F3AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FF7C610415B1E2F800D3F3AF /* IRPageViewController-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRPageViewController-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF7C610415B1E2F800D3F3AF /* RAPageViewController-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAPageViewController-Sample-Info.plist"; sourceTree = "<group>"; };
 		FF7C610615B1E2F800D3F3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF7C610815B1E2F800D3F3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF7C610A15B1E2F800D3F3AF /* IRPageViewController-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRPageViewController-Sample-Prefix.pch"; sourceTree = "<group>"; };
-		FF7C610B15B1E2F800D3F3AF /* IRPVCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRPVCSAppDelegate.h; path = "IRPageViewController-Sample/IRPVCSAppDelegate.h"; sourceTree = "<group>"; };
-		FF7C610C15B1E2F800D3F3AF /* IRPVCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRPVCSAppDelegate.m; path = "IRPageViewController-Sample/IRPVCSAppDelegate.m"; sourceTree = "<group>"; };
+		FF7C610A15B1E2F800D3F3AF /* RAPageViewController-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAPageViewController-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF7C610B15B1E2F800D3F3AF /* RAPVCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAPVCSAppDelegate.h; path = "RAPageViewController-Sample/RAPVCSAppDelegate.h"; sourceTree = "<group>"; };
+		FF7C610C15B1E2F800D3F3AF /* RAPVCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAPVCSAppDelegate.m; path = "RAPageViewController-Sample/RAPVCSAppDelegate.m"; sourceTree = "<group>"; };
 		FF7C610F15B1E2F800D3F3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FF7C611115B1E2F800D3F3AF /* IRPVCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRPVCSViewController.h; path = "IRPageViewController-Sample/IRPVCSViewController.h"; sourceTree = "<group>"; };
-		FF7C611215B1E2F800D3F3AF /* IRPVCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRPVCSViewController.m; path = "IRPageViewController-Sample/IRPVCSViewController.m"; sourceTree = "<group>"; };
-		FF7C611E15B1E31600D3F3AF /* IRPageViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRPageViewController.xcodeproj; path = IRPageViewController/IRPageViewController.xcodeproj; sourceTree = "<group>"; };
-		FF7C613915B2066000D3F3AF /* IRPVCSPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRPVCSPageViewController.h; path = "IRPageViewController-Sample/IRPVCSPageViewController.h"; sourceTree = "<group>"; };
-		FF7C613A15B2066000D3F3AF /* IRPVCSPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRPVCSPageViewController.m; path = "IRPageViewController-Sample/IRPVCSPageViewController.m"; sourceTree = "<group>"; };
-		FF7C613B15B2066000D3F3AF /* IRPVCSPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IRPVCSPageViewController.xib; path = "IRPageViewController-Sample/IRPVCSPageViewController.xib"; sourceTree = "<group>"; };
+		FF7C611115B1E2F800D3F3AF /* RAPVCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAPVCSViewController.h; path = "RAPageViewController-Sample/RAPVCSViewController.h"; sourceTree = "<group>"; };
+		FF7C611215B1E2F800D3F3AF /* RAPVCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAPVCSViewController.m; path = "RAPageViewController-Sample/RAPVCSViewController.m"; sourceTree = "<group>"; };
+		FF7C611E15B1E31600D3F3AF /* RAPageViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RAPageViewController.xcodeproj; path = RAPageViewController/RAPageViewController.xcodeproj; sourceTree = "<group>"; };
+		FF7C613915B2066000D3F3AF /* RAPVCSPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAPVCSPageViewController.h; path = "RAPageViewController-Sample/RAPVCSPageViewController.h"; sourceTree = "<group>"; };
+		FF7C613A15B2066000D3F3AF /* RAPVCSPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAPVCSPageViewController.m; path = "RAPageViewController-Sample/RAPVCSPageViewController.m"; sourceTree = "<group>"; };
+		FF7C613B15B2066000D3F3AF /* RAPVCSPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RAPVCSPageViewController.xib; path = "RAPageViewController-Sample/RAPVCSPageViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7C612915B1E32500D3F3AF /* libIRPageViewController.a in Frameworks */,
+				FF7C612915B1E32500D3F3AF /* libRAPageViewController.a in Frameworks */,
 				FF7C60FD15B1E2F800D3F3AF /* UIKit.framework in Frameworks */,
 				FF7C60FF15B1E2F800D3F3AF /* Foundation.framework in Frameworks */,
 				FF7C610115B1E2F800D3F3AF /* CoreGraphics.framework in Frameworks */,
@@ -75,14 +75,14 @@
 		FF7C60ED15B1E2F800D3F3AF = {
 			isa = PBXGroup;
 			children = (
-				FF7C610B15B1E2F800D3F3AF /* IRPVCSAppDelegate.h */,
-				FF7C610C15B1E2F800D3F3AF /* IRPVCSAppDelegate.m */,
+				FF7C610B15B1E2F800D3F3AF /* RAPVCSAppDelegate.h */,
+				FF7C610C15B1E2F800D3F3AF /* RAPVCSAppDelegate.m */,
 				FF7C610E15B1E2F800D3F3AF /* MainStoryboard.storyboard */,
-				FF7C611115B1E2F800D3F3AF /* IRPVCSViewController.h */,
-				FF7C611215B1E2F800D3F3AF /* IRPVCSViewController.m */,
-				FF7C613915B2066000D3F3AF /* IRPVCSPageViewController.h */,
-				FF7C613A15B2066000D3F3AF /* IRPVCSPageViewController.m */,
-				FF7C613B15B2066000D3F3AF /* IRPVCSPageViewController.xib */,
+				FF7C611115B1E2F800D3F3AF /* RAPVCSViewController.h */,
+				FF7C611215B1E2F800D3F3AF /* RAPVCSViewController.m */,
+				FF7C613915B2066000D3F3AF /* RAPVCSPageViewController.h */,
+				FF7C613A15B2066000D3F3AF /* RAPVCSPageViewController.m */,
+				FF7C613B15B2066000D3F3AF /* RAPVCSPageViewController.xib */,
 				FF7C610315B1E2F800D3F3AF /* Supporting Files */,
 				FF7C60FB15B1E2F800D3F3AF /* Frameworks */,
 				FF7C60F915B1E2F800D3F3AF /* Products */,
@@ -92,7 +92,7 @@
 		FF7C60F915B1E2F800D3F3AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF7C60F815B1E2F800D3F3AF /* IRPageViewController-Sample.app */,
+				FF7C60F815B1E2F800D3F3AF /* RAPageViewController-Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 				FF7C610015B1E2F800D3F3AF /* CoreGraphics.framework */,
 				FF7C60FE15B1E2F800D3F3AF /* Foundation.framework */,
 				FF7C60FC15B1E2F800D3F3AF /* UIKit.framework */,
-				FF7C611E15B1E31600D3F3AF /* IRPageViewController.xcodeproj */,
+				FF7C611E15B1E31600D3F3AF /* RAPageViewController.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,19 +111,19 @@
 		FF7C610315B1E2F800D3F3AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF7C610415B1E2F800D3F3AF /* IRPageViewController-Sample-Info.plist */,
+				FF7C610415B1E2F800D3F3AF /* RAPageViewController-Sample-Info.plist */,
 				FF7C610515B1E2F800D3F3AF /* InfoPlist.strings */,
 				FF7C610815B1E2F800D3F3AF /* main.m */,
-				FF7C610A15B1E2F800D3F3AF /* IRPageViewController-Sample-Prefix.pch */,
+				FF7C610A15B1E2F800D3F3AF /* RAPageViewController-Sample-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = "IRPageViewController-Sample";
+			path = "RAPageViewController-Sample";
 			sourceTree = "<group>";
 		};
 		FF7C611F15B1E31600D3F3AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF7C612615B1E31600D3F3AF /* libIRPageViewController.a */,
+				FF7C612615B1E31600D3F3AF /* libRAPageViewController.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF7C60F715B1E2F800D3F3AF /* IRPageViewController-Sample */ = {
+		FF7C60F715B1E2F800D3F3AF /* RAPageViewController-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF7C611615B1E2F800D3F3AF /* Build configuration list for PBXNativeTarget "IRPageViewController-Sample" */;
+			buildConfigurationList = FF7C611615B1E2F800D3F3AF /* Build configuration list for PBXNativeTarget "RAPageViewController-Sample" */;
 			buildPhases = (
 				FF7C60F415B1E2F800D3F3AF /* Sources */,
 				FF7C60F515B1E2F800D3F3AF /* Frameworks */,
@@ -144,9 +144,9 @@
 			dependencies = (
 				FF7C612815B1E32000D3F3AF /* PBXTargetDependency */,
 			);
-			name = "IRPageViewController-Sample";
-			productName = "IRPageViewController-Sample";
-			productReference = FF7C60F815B1E2F800D3F3AF /* IRPageViewController-Sample.app */;
+			name = "RAPageViewController-Sample";
+			productName = "RAPageViewController-Sample";
+			productReference = FF7C60F815B1E2F800D3F3AF /* RAPageViewController-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,10 +155,10 @@
 		FF7C60EF15B1E2F800D3F3AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = IRPVCS;
-				ORGANIZATIONNAME = "Iridia Productions";
+				CLASSPREFIX = RAPVCS;
+				ORGANIZATIONNAME = Radius;
 			};
-			buildConfigurationList = FF7C60F215B1E2F800D3F3AF /* Build configuration list for PBXProject "IRPageViewController-Sample" */;
+			buildConfigurationList = FF7C60F215B1E2F800D3F3AF /* Build configuration list for PBXProject "RAPageViewController-Sample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,21 +171,21 @@
 			projectReferences = (
 				{
 					ProductGroup = FF7C611F15B1E31600D3F3AF /* Products */;
-					ProjectRef = FF7C611E15B1E31600D3F3AF /* IRPageViewController.xcodeproj */;
+					ProjectRef = FF7C611E15B1E31600D3F3AF /* RAPageViewController.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				FF7C60F715B1E2F800D3F3AF /* IRPageViewController-Sample */,
+				FF7C60F715B1E2F800D3F3AF /* RAPageViewController-Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FF7C612615B1E31600D3F3AF /* libIRPageViewController.a */ = {
+		FF7C612615B1E31600D3F3AF /* libRAPageViewController.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libIRPageViewController.a;
+			path = libRAPageViewController.a;
 			remoteRef = FF7C612515B1E31600D3F3AF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -198,7 +198,7 @@
 			files = (
 				FF7C610715B1E2F800D3F3AF /* InfoPlist.strings in Resources */,
 				FF7C611015B1E2F800D3F3AF /* MainStoryboard.storyboard in Resources */,
-				FF7C613D15B2066000D3F3AF /* IRPVCSPageViewController.xib in Resources */,
+				FF7C613D15B2066000D3F3AF /* RAPVCSPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,9 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7C610915B1E2F800D3F3AF /* main.m in Sources */,
-				FF7C610D15B1E2F800D3F3AF /* IRPVCSAppDelegate.m in Sources */,
-				FF7C611315B1E2F800D3F3AF /* IRPVCSViewController.m in Sources */,
-				FF7C613C15B2066000D3F3AF /* IRPVCSPageViewController.m in Sources */,
+				FF7C610D15B1E2F800D3F3AF /* RAPVCSAppDelegate.m in Sources */,
+				FF7C611315B1E2F800D3F3AF /* RAPVCSViewController.m in Sources */,
+				FF7C613C15B2066000D3F3AF /* RAPVCSPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		FF7C612815B1E32000D3F3AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = IRPageViewController;
+			name = RAPageViewController;
 			targetProxy = FF7C612715B1E32000D3F3AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -241,7 +241,7 @@
 				FF7C610F15B1E2F800D3F3AF /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			path = "IRPageViewController-Sample";
+			path = "RAPageViewController-Sample";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -269,7 +269,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRPageViewController/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RAPageViewController/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
@@ -290,7 +290,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRPageViewController/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RAPageViewController/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -302,8 +302,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IRPageViewController-Sample/IRPageViewController-Sample-Prefix.pch";
-				INFOPLIST_FILE = "IRPageViewController-Sample/IRPageViewController-Sample-Info.plist";
+				GCC_PREFIX_HEADER = "RAPageViewController-Sample/RAPageViewController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RAPageViewController-Sample/RAPageViewController-Sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,8 +313,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IRPageViewController-Sample/IRPageViewController-Sample-Prefix.pch";
-				INFOPLIST_FILE = "IRPageViewController-Sample/IRPageViewController-Sample-Info.plist";
+				GCC_PREFIX_HEADER = "RAPageViewController-Sample/RAPageViewController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RAPageViewController-Sample/RAPageViewController-Sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF7C60F215B1E2F800D3F3AF /* Build configuration list for PBXProject "IRPageViewController-Sample" */ = {
+		FF7C60F215B1E2F800D3F3AF /* Build configuration list for PBXProject "RAPageViewController-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF7C611415B1E2F800D3F3AF /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF7C611615B1E2F800D3F3AF /* Build configuration list for PBXNativeTarget "IRPageViewController-Sample" */ = {
+		FF7C611615B1E2F800D3F3AF /* Build configuration list for PBXNativeTarget "RAPageViewController-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF7C611715B1E2F800D3F3AF /* Debug */,

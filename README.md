@@ -1,3 +1,3 @@
-# IRPageViewController-Sample
+# RAPageViewController-Sample
 
-Sample app for [IRPageViewController](https://github.com/iridia/IRPageViewController) with some custom sauce.
+Sample app for [RAPageViewController](https://github.com/evadne/RAPageViewController) with some custom sauce.
