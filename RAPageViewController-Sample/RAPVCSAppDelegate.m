@@ -7,6 +7,7 @@
 //
 
 #import "RAPVCSAppDelegate.h"
+#import "RAPVCSCollectionViewController.h"
 #import "RAPVCSPageViewController.h"
 
 @implementation RAPVCSAppDelegate
@@ -14,12 +15,34 @@
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
 	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-	self.window.rootViewController = [RAPVCSPageViewController new];
+	self.window.rootViewController = [RAPVCSCollectionViewController new]; //[[UINavigationController alloc] initWithRootViewController:[RAPVCSCollectionViewController new]];
+	
+	UITapGestureRecognizer *doubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+	doubleTapGestureRecognizer.numberOfTapsRequired = 2;
+	[self.window addGestureRecognizer:doubleTapGestureRecognizer];
 	
 	[self.window makeKeyAndVisible];
 	
 	return YES;
 	
+}
+
+- (void) handleDoubleTap:(UITapGestureRecognizer *)doubleTapGestureRecognizer {
+
+	[UIView animateWithDuration:0.3f delay:0.0f options:UIViewAnimationOptionBeginFromCurrentState|UIViewAnimationOptionAllowUserInteraction animations:^{
+		
+		if (CGAffineTransformEqualToTransform(self.window.transform, CGAffineTransformIdentity)) {
+		
+			self.window.transform = CGAffineTransformMakeScale(0.5f, 0.5f);
+			
+		} else {
+		
+			self.window.transform = CGAffineTransformIdentity;
+		
+		}
+		
+	} completion:nil];
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
