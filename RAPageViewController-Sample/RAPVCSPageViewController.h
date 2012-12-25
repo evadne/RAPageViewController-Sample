@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "RAPageViewController.h"
 
-@interface RAPVCSViewController : RAPageViewController
+@interface RAPVCSPageViewController : RAPageViewController
 
 @end

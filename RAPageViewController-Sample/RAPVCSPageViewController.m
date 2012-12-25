@@ -6,19 +6,19 @@
 //  Copyright (c) 2012 Radius. All rights reserved.
 //
 
-#import "RAPVCSViewController.h"
+#import "RAPVCSPageViewController.h"
 #import "RAPVCSContentViewController.h"
 #import "RAPageViewControllerSubclass.h"
 
 
-@interface RAPVCSViewController () <RAPageViewControllerDelegate>
+@interface RAPVCSPageViewController () <RAPageViewControllerDelegate>
 
 @property (nonatomic, readonly, strong) NSArray *servedViewControllers;
 
 @end
 
 
-@implementation RAPVCSViewController
+@implementation RAPVCSPageViewController
 @synthesize servedViewControllers = _servedViewControllers;
 
 - (void) viewDidLoad {

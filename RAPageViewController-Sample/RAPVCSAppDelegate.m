@@ -7,14 +7,14 @@
 //
 
 #import "RAPVCSAppDelegate.h"
-#import "RAPVCSViewController.h"
+#import "RAPVCSPageViewController.h"
 
 @implementation RAPVCSAppDelegate
 
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
 	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-	self.window.rootViewController = [RAPVCSViewController new];
+	self.window.rootViewController = [RAPVCSPageViewController new];
 	
 	[self.window makeKeyAndVisible];
 	
