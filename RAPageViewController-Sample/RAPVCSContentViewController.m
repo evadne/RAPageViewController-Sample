@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Radius. All rights reserved.
 //
 
-#import "RAPVCSPageViewController.h"
+#import "RAPVCSContentViewController.h"
 
-@implementation RAPVCSPageViewController
+@implementation RAPVCSContentViewController
 
 - (void) viewDidLoad {
 

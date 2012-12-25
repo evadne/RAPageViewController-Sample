@@ -7,13 +7,19 @@
 //
 
 #import "RAPVCSAppDelegate.h"
+#import "RAPVCSViewController.h"
 
 @implementation RAPVCSAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    return YES;
+- (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
+	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+	self.window.rootViewController = [RAPVCSViewController new];
+	
+	[self.window makeKeyAndVisible];
+	
+	return YES;
+	
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

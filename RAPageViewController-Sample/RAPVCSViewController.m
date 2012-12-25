@@ -7,7 +7,7 @@
 //
 
 #import "RAPVCSViewController.h"
-#import "RAPVCSPageViewController.h"
+#import "RAPVCSContentViewController.h"
 #import "RAPageViewControllerSubclass.h"
 
 
@@ -28,7 +28,6 @@
 	self.delegate = self;
 	self.viewControllers = [NSArray arrayWithObject:[self.servedViewControllers objectAtIndex:MIN([self.servedViewControllers count] - 1, 5)]];
 	self.scrollView.frame = CGRectInset(self.scrollView.frame, -20.0f, 0.0f);
-	//	self.scrollView.pagingEnabled = NO;
 	
 }
 
@@ -51,8 +50,8 @@
 			[self newPageViewController],
 			[self newPageViewController],
 			[self newPageViewController],
-//			[self newPageViewController],
-//			[self newPageViewController],
+			[self newPageViewController],
+			[self newPageViewController],
 		
 		nil];
 	
@@ -64,7 +63,7 @@
 
 - (UIViewController *) newPageViewController {
 
-	RAPVCSPageViewController *pvcsPVC = [[RAPVCSPageViewController alloc] initWithNibName:nil bundle:nil];
+	RAPVCSContentViewController *pvcsPVC = [[RAPVCSContentViewController alloc] initWithNibName:nil bundle:nil];
 	return pvcsPVC;
 
 }

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface RAPVCSPageViewController : UIViewController
+@interface RAPVCSContentViewController : UIViewController
 
 @end
