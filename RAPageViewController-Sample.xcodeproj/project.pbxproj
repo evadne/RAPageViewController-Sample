@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1F709F168984EC008F1BCC /* RAPVCSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1F709E168984EC008F1BCC /* RAPVCSCollectionViewController.m */; };
+		FF7BFDDA1689E7530006BC41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7BFDD91689E7530006BC41 /* QuartzCore.framework */; };
 		FF7C60FD15B1E2F800D3F3AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C60FC15B1E2F800D3F3AF /* UIKit.framework */; };
 		FF7C60FF15B1E2F800D3F3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C60FE15B1E2F800D3F3AF /* Foundation.framework */; };
 		FF7C610115B1E2F800D3F3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C610015B1E2F800D3F3AF /* CoreGraphics.framework */; };
 		FF7C610715B1E2F800D3F3AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7C610515B1E2F800D3F3AF /* InfoPlist.strings */; };
 		FF7C610915B1E2F800D3F3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C610815B1E2F800D3F3AF /* main.m */; };
 		FF7C610D15B1E2F800D3F3AF /* RAPVCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C610C15B1E2F800D3F3AF /* RAPVCSAppDelegate.m */; };
-		FF7C611015B1E2F800D3F3AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C610E15B1E2F800D3F3AF /* MainStoryboard.storyboard */; };
-		FF7C611315B1E2F800D3F3AF /* RAPVCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C611215B1E2F800D3F3AF /* RAPVCSViewController.m */; };
+		FF7C611315B1E2F800D3F3AF /* RAPVCSPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C611215B1E2F800D3F3AF /* RAPVCSPageViewController.m */; };
 		FF7C612915B1E32500D3F3AF /* libRAPageViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C612615B1E31600D3F3AF /* libRAPageViewController.a */; };
-		FF7C613C15B2066000D3F3AF /* RAPVCSPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C613A15B2066000D3F3AF /* RAPVCSPageViewController.m */; };
-		FF7C613D15B2066000D3F3AF /* RAPVCSPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7C613B15B2066000D3F3AF /* RAPVCSPageViewController.xib */; };
+		FF7C613C15B2066000D3F3AF /* RAPVCSContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C613A15B2066000D3F3AF /* RAPVCSContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF1F709D168984EC008F1BCC /* RAPVCSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAPVCSCollectionViewController.h; path = "RAPageViewController-Sample/RAPVCSCollectionViewController.h"; sourceTree = "<group>"; };
+		FF1F709E168984EC008F1BCC /* RAPVCSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAPVCSCollectionViewController.m; path = "RAPageViewController-Sample/RAPVCSCollectionViewController.m"; sourceTree = "<group>"; };
+		FF7BFDD91689E7530006BC41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FF7C60F815B1E2F800D3F3AF /* RAPageViewController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAPageViewController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C60FC15B1E2F800D3F3AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF7C60FE15B1E2F800D3F3AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,13 +51,11 @@
 		FF7C610A15B1E2F800D3F3AF /* RAPageViewController-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAPageViewController-Sample-Prefix.pch"; sourceTree = "<group>"; };
 		FF7C610B15B1E2F800D3F3AF /* RAPVCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAPVCSAppDelegate.h; path = "RAPageViewController-Sample/RAPVCSAppDelegate.h"; sourceTree = "<group>"; };
 		FF7C610C15B1E2F800D3F3AF /* RAPVCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAPVCSAppDelegate.m; path = "RAPageViewController-Sample/RAPVCSAppDelegate.m"; sourceTree = "<group>"; };
-		FF7C610F15B1E2F800D3F3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FF7C611115B1E2F800D3F3AF /* RAPVCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAPVCSViewController.h; path = "RAPageViewController-Sample/RAPVCSViewController.h"; sourceTree = "<group>"; };
-		FF7C611215B1E2F800D3F3AF /* RAPVCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAPVCSViewController.m; path = "RAPageViewController-Sample/RAPVCSViewController.m"; sourceTree = "<group>"; };
+		FF7C611115B1E2F800D3F3AF /* RAPVCSPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAPVCSPageViewController.h; path = "RAPageViewController-Sample/RAPVCSPageViewController.h"; sourceTree = "<group>"; };
+		FF7C611215B1E2F800D3F3AF /* RAPVCSPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAPVCSPageViewController.m; path = "RAPageViewController-Sample/RAPVCSPageViewController.m"; sourceTree = "<group>"; };
 		FF7C611E15B1E31600D3F3AF /* RAPageViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RAPageViewController.xcodeproj; path = RAPageViewController/RAPageViewController.xcodeproj; sourceTree = "<group>"; };
-		FF7C613915B2066000D3F3AF /* RAPVCSPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAPVCSPageViewController.h; path = "RAPageViewController-Sample/RAPVCSPageViewController.h"; sourceTree = "<group>"; };
-		FF7C613A15B2066000D3F3AF /* RAPVCSPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAPVCSPageViewController.m; path = "RAPageViewController-Sample/RAPVCSPageViewController.m"; sourceTree = "<group>"; };
-		FF7C613B15B2066000D3F3AF /* RAPVCSPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RAPVCSPageViewController.xib; path = "RAPageViewController-Sample/RAPVCSPageViewController.xib"; sourceTree = "<group>"; };
+		FF7C613915B2066000D3F3AF /* RAPVCSContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAPVCSContentViewController.h; path = "RAPageViewController-Sample/RAPVCSContentViewController.h"; sourceTree = "<group>"; };
+		FF7C613A15B2066000D3F3AF /* RAPVCSContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAPVCSContentViewController.m; path = "RAPageViewController-Sample/RAPVCSContentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7BFDDA1689E7530006BC41 /* QuartzCore.framework in Frameworks */,
 				FF7C612915B1E32500D3F3AF /* libRAPageViewController.a in Frameworks */,
 				FF7C60FD15B1E2F800D3F3AF /* UIKit.framework in Frameworks */,
 				FF7C60FF15B1E2F800D3F3AF /* Foundation.framework in Frameworks */,
@@ -75,14 +77,15 @@
 		FF7C60ED15B1E2F800D3F3AF = {
 			isa = PBXGroup;
 			children = (
+				FF7BFDD91689E7530006BC41 /* QuartzCore.framework */,
 				FF7C610B15B1E2F800D3F3AF /* RAPVCSAppDelegate.h */,
 				FF7C610C15B1E2F800D3F3AF /* RAPVCSAppDelegate.m */,
-				FF7C610E15B1E2F800D3F3AF /* MainStoryboard.storyboard */,
-				FF7C611115B1E2F800D3F3AF /* RAPVCSViewController.h */,
-				FF7C611215B1E2F800D3F3AF /* RAPVCSViewController.m */,
-				FF7C613915B2066000D3F3AF /* RAPVCSPageViewController.h */,
-				FF7C613A15B2066000D3F3AF /* RAPVCSPageViewController.m */,
-				FF7C613B15B2066000D3F3AF /* RAPVCSPageViewController.xib */,
+				FF7C611115B1E2F800D3F3AF /* RAPVCSPageViewController.h */,
+				FF7C611215B1E2F800D3F3AF /* RAPVCSPageViewController.m */,
+				FF1F709D168984EC008F1BCC /* RAPVCSCollectionViewController.h */,
+				FF1F709E168984EC008F1BCC /* RAPVCSCollectionViewController.m */,
+				FF7C613915B2066000D3F3AF /* RAPVCSContentViewController.h */,
+				FF7C613A15B2066000D3F3AF /* RAPVCSContentViewController.m */,
 				FF7C610315B1E2F800D3F3AF /* Supporting Files */,
 				FF7C60FB15B1E2F800D3F3AF /* Frameworks */,
 				FF7C60F915B1E2F800D3F3AF /* Products */,
@@ -197,8 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7C610715B1E2F800D3F3AF /* InfoPlist.strings in Resources */,
-				FF7C611015B1E2F800D3F3AF /* MainStoryboard.storyboard in Resources */,
-				FF7C613D15B2066000D3F3AF /* RAPVCSPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +212,9 @@
 			files = (
 				FF7C610915B1E2F800D3F3AF /* main.m in Sources */,
 				FF7C610D15B1E2F800D3F3AF /* RAPVCSAppDelegate.m in Sources */,
-				FF7C611315B1E2F800D3F3AF /* RAPVCSViewController.m in Sources */,
-				FF7C613C15B2066000D3F3AF /* RAPVCSPageViewController.m in Sources */,
+				FF7C611315B1E2F800D3F3AF /* RAPVCSPageViewController.m in Sources */,
+				FF7C613C15B2066000D3F3AF /* RAPVCSContentViewController.m in Sources */,
+				FF1F709F168984EC008F1BCC /* RAPVCSCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,15 +235,6 @@
 				FF7C610615B1E2F800D3F3AF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FF7C610E15B1E2F800D3F3AF /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF7C610F15B1E2F800D3F3AF /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			path = "RAPageViewController-Sample";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

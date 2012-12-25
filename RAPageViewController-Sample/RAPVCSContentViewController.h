@@ -1,5 +1,5 @@
 //
-//  RAPVCSViewController.h
+//  RAPVCSPageViewController.h
 //  RAPageViewController-Sample
 //
 //  Created by Evadne Wu on 7/15/12.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RAPageViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface RAPVCSViewController : RAPageViewController
+@interface RAPVCSContentViewController : UIViewController
 
 @end
