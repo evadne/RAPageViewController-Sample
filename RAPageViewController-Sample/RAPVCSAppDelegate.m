@@ -17,8 +17,11 @@
 	
 	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 	
+	self.window.rootViewController = [RAPVCSPageViewController new];
+	//	self.window.rootViewController = [[RAPVCSNavigationController alloc] initWithRootViewController:[RAPVCSPageViewController new]];
+	
 	//	self.window.rootViewController = [RAPVCSCollectionViewController new];
-	self.window.rootViewController = [[RAPVCSNavigationController alloc] initWithRootViewController:[RAPVCSCollectionViewController new]];
+	//	self.window.rootViewController = [[RAPVCSNavigationController alloc] initWithRootViewController:[RAPVCSCollectionViewController new]];
 	
 	UITapGestureRecognizer *doubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
 	doubleTapGestureRecognizer.numberOfTapsRequired = 2;
