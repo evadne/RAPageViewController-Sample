@@ -10,7 +10,7 @@
 #import "RAPVCSContentViewController.h"
 
 @interface RAPVCSCollectionViewController () <RAPageCollectionViewControllerDelegate>
-@property (nonatomic, readonly, strong) NSArray *viewControllers;
+@property (nonatomic, readonly, strong) NSMutableArray *viewControllers;
 @end
 
 @implementation RAPVCSCollectionViewController
@@ -51,6 +51,7 @@
 	
 	[super viewDidLoad];
 	
+	self.collectionView.clipsToBounds = NO;
 	self.collectionView.showsHorizontalScrollIndicator = NO;
 	self.collectionView.showsVerticalScrollIndicator = NO;
 	self.collectionView.alwaysBounceHorizontal = YES;
@@ -72,11 +73,11 @@
 
 }
 
-- (NSArray *) viewControllers {
+- (NSMutableArray *) viewControllers {
 
 	if (!_viewControllers) {
 	
-		_viewControllers = @[
+		_viewControllers = [@[
 		
 			[self newContentViewController],
 			[self newContentViewController],
@@ -84,7 +85,7 @@
 			[self newContentViewController],
 			[self newContentViewController]
 		
-		];
+		] mutableCopy];
 	
 	}
 	
@@ -109,23 +110,75 @@
 
 - (void) handleRewind:(id)sender {
 
+	[self setDisplayIndex:0.0f animated:YES completion:nil];
+
 }
 
 - (void) handleBackwardAdd:(id)sender {
-
+	
+	CGFloat displayIndex = self.displayIndex;
+	NSUInteger viewControllerIndex = isnan(displayIndex) ?
+		0 :
+		(NSUInteger)roundf(displayIndex);
+	
+	[self.collectionView performBatchUpdates:^{
+		
+		[self.viewControllers insertObject:[self newContentViewController] atIndex:viewControllerIndex];
+		
+		[self.collectionView insertItemsAtIndexPaths:@[
+			[NSIndexPath indexPathForItem:viewControllerIndex inSection:0]
+		]];
+		
+		[self setDisplayIndex:(CGFloat)viewControllerIndex animated:YES completion:nil];
+		
+	} completion:nil];
+	
 }
 
 - (void) handleTrash:(id)sender {
-
-	//	self.viewControllers
+	
+	CGFloat displayIndex = self.displayIndex;
+	if (isnan(displayIndex))
+		return;
+	
+	NSUInteger viewControllerIndex = (NSUInteger)roundf(displayIndex);
+	
+	[self.collectionView performBatchUpdates:^{
+		
+		[self.viewControllers removeObjectAtIndex:viewControllerIndex];
+		
+		[self.collectionView deleteItemsAtIndexPaths:@[
+			[NSIndexPath indexPathForItem:viewControllerIndex inSection:0]
+		]];
+		
+	} completion:nil];
 
 }
 
 - (void) handleForwardAdd:(id)sender {
 
+	CGFloat displayIndex = self.displayIndex;
+	NSUInteger viewControllerIndex = isnan(displayIndex) ?
+		0 :
+		(NSUInteger)roundf(displayIndex) + 1;
+	
+	[self.collectionView performBatchUpdates:^{
+		
+		[self.viewControllers insertObject:[self newContentViewController] atIndex:viewControllerIndex];
+		
+		[self.collectionView insertItemsAtIndexPaths:@[
+			[NSIndexPath indexPathForItem:viewControllerIndex inSection:0]
+		]];
+		
+		[self setDisplayIndex:(CGFloat)viewControllerIndex animated:YES completion:nil];
+		
+	} completion:nil];
+	
 }
 
 - (void) handleFastForward:(id)sender {
+
+	[self setDisplayIndex:((CGFloat)[self.viewControllers count] - 1.0f) animated:YES completion:nil];
 
 }
 

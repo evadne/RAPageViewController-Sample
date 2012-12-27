@@ -8,6 +8,7 @@
 
 #import "RAPVCSAppDelegate.h"
 #import "RAPVCSCollectionViewController.h"
+#import "RAPVCSNavigationController.h"
 #import "RAPVCSPageViewController.h"
 
 @implementation RAPVCSAppDelegate
@@ -15,7 +16,9 @@
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
 	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-	self.window.rootViewController = [RAPVCSCollectionViewController new]; //[[UINavigationController alloc] initWithRootViewController:[RAPVCSCollectionViewController new]];
+	
+	//	self.window.rootViewController = [RAPVCSCollectionViewController new];
+	self.window.rootViewController = [[RAPVCSNavigationController alloc] initWithRootViewController:[RAPVCSCollectionViewController new]];
 	
 	UITapGestureRecognizer *doubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
 	doubleTapGestureRecognizer.numberOfTapsRequired = 2;
